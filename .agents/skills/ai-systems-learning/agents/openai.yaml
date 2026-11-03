@@ -1,0 +1,5 @@
+interface:
+  display_name: "AI Systems Learning"
+  short_description: "Organize low-level AI systems study materials"
+  default_prompt: "Use $ai-systems-learning to add a well-structured AI systems learning topic to this repository."
+

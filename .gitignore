@@ -1,0 +1,80 @@
+# IDE and editor settings
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# C/C++ and CMake
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+Makefile
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+
+# CUDA / profiling
+*.cubin
+*.fatbin
+*.ptx
+*.nsys-rep
+*.ncu-rep
+
+# Logs, caches, and temporary files
+*.log
+*.tmp
+*.cache
+.cache/
+tmp/
+temp/
+
+# Local datasets, model weights, and experiment outputs
+data/
+datasets/
+checkpoints/
+outputs/
+runs/
+wandb/
+*.ckpt
+*.safetensors
+*.onnx
+*.pth
+*.pt
+*.bin
+
